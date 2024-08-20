@@ -10,11 +10,11 @@ public class ComputerController {
 
     private Computer computer;
 
-    ComputerController() {
+    public ComputerController() {
         computer = new Computer();
     }
 
-    public void generate() {
+    public List<Integer> generate() {
         List<Integer> generateNumbers = new ArrayList<>();
 
         while (generateNumbers.size() < 3) {
@@ -26,6 +26,8 @@ public class ComputerController {
         }
 
         computer.save(generateNumbers);
+
+        return generateNumbers;
     }
 
     private boolean validateDuplication(List<Integer> numbers, int generateNumber) {
