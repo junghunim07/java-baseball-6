@@ -16,8 +16,8 @@
     - 완전히 종료
 
 ### 초기 기능 구현 목록
-- [ ] 랜덤 3자리 수 생성하는 기능
-  - [ ] `camp.nextstep.edu.missionutils.Randoms`의 `pickNumberInRange()`를 활용
+- [x] 랜덤 3자리 수 생성하는 기능
+  - [x] `camp.nextstep.edu.missionutils.Randoms`의 `pickNumberInRange()`를 활용
 - [ ] 3자리 수를 입력하는 기능
   - [ ] 1 ~ 9 사이의 서로 다른 임의의 수 3개를 입력
     - [ ] `camp.nextstep.edu.missionutils.Console`의 `readLine()`을 활용
