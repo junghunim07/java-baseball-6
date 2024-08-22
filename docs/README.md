@@ -18,15 +18,15 @@
 ### 초기 기능 구현 목록
 - [x] 랜덤 3자리 수 생성하는 기능
   - [x] `camp.nextstep.edu.missionutils.Randoms`의 `pickNumberInRange()`를 활용
-- [ ] 3자리 수를 입력하는 기능
-  - [ ] 1 ~ 9 사이의 서로 다른 임의의 수 3개를 입력
-    - [ ] `camp.nextstep.edu.missionutils.Console`의 `readLine()`을 활용
-  - [ ] 입력예외 발생 시, `IllegalArgumentException` 발생
-    - [ ] 입력 예외
-      - [ ] 중복된 수 존재
-      - [ ] 0을 입력한 경우
-      - [ ] 숫자가 아닌 문자를 입력한 경우
-      - [ ] 3자리가 아닌 경우
+- [x] 3자리 수를 입력하는 기능
+  - [x] 1 ~ 9 사이의 서로 다른 임의의 수 3개를 입력
+    - [x] `camp.nextstep.edu.missionutils.Console`의 `readLine()`을 활용
+  - [x] 입력예외 발생 시, `IllegalArgumentException` 발생
+    - [x] 입력 예외
+      - [x] 중복된 수 존재
+      - [x] 0을 입력한 경우
+      - [x] 숫자가 아닌 문자를 입력한 경우
+      - [x] 3자리가 아닌 경우
 - [ ] 힌트를 출력하는 기능
   - [ ] 사용자 입력과 랜덤 3자리 수 비교
     - [ ] 같은 자리 같은 수가 존재하면 스트라이크
