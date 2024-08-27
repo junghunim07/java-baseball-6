@@ -32,6 +32,7 @@ public class GameController {
                     playerController.getPlayer().getNumbers());
             UIController.print(hint.getHint());
         }
+        UIController.printEndPhrase();
     }
 
     private boolean checkRestart() {
