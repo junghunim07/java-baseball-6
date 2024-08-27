@@ -15,4 +15,8 @@ public class Player {
 
         return playerNumbers;
     }
+
+    public Numbers getNumbers() {
+        return savedNumbers;
+    }
 }

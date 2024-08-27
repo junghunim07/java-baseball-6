@@ -30,6 +30,10 @@ public class ComputerController {
         return generateNumbers;
     }
 
+    public Computer getComputer() {
+        return computer;
+    }
+
     private boolean validateDuplication(List<Integer> numbers, int generateNumber) {
         if (numbers.contains(generateNumber)) {
             return false;

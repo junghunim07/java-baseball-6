@@ -21,6 +21,10 @@ public class PlayerController {
         return player.save(parse(userValue));
     }
 
+    public Player getPlayer() {
+        return player;
+    }
+
     private List<Integer> parse(String userNumbers) {
         return Arrays.stream(userNumbers.split(""))
                 .map(Integer::parseInt)

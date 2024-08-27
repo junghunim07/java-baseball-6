@@ -12,4 +12,8 @@ public class Computer {
     public void save(List<Integer> generateNumber) {
         savedNumbers.from(generateNumber);
     }
+
+    public Numbers getNumbers() {
+        return savedNumbers;
+    }
 }

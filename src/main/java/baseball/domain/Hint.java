@@ -23,4 +23,8 @@ public class Hint {
             return strike + "스트라이크";
         return "낫싱";
     }
+
+    public boolean getFlag() {
+        return endFlag;
+    }
 }
