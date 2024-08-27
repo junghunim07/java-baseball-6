@@ -22,4 +22,8 @@ public class OutputPrinter {
     public static void printRestart() {
         System.out.println(restart);
     }
+
+    public static void print(String hint) {
+        System.out.println(hint);
+    }
 }

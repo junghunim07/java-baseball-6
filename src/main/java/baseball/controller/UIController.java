@@ -24,4 +24,8 @@ public class UIController {
     public static void printRestartPhrase() {
         OutputPrinter.printRestart();
     }
+
+    public static void print(String hint) {
+        OutputPrinter.print(hint);
+    }
 }
